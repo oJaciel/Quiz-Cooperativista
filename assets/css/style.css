@@ -5,15 +5,26 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #001e4d;
+html{
+    background: url("../images/pine_black.png") no-repeat center bottom;
+    background-size: cover;
+    height: 100%;
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
 .app {
-    background: #c9c9c9;
+    background: #d7e1ea;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     border-radius: 10px;
     padding: 30px;
 }
@@ -25,6 +36,23 @@ body {
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
 }
+
+#develop {
+    font-size: medium;
+    background: #d7e1ea;
+    width: 70%;
+    max-width: 400px;
+    text-align: center;
+    margin: 5px auto 0 auto;
+    padding: 10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+
+
 
 .quiz {
     padding: 20px 0;
@@ -74,7 +102,7 @@ body {
 
 
 
-.correct{
+.correct {
     background: #9aeabc;
 }
 
